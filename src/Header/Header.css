@@ -1,4 +1,10 @@
 .header-div {
     background-color: black;
-    height: 100px;
+    height: 100px;  
+}
+
+.header-title {
+    color: gray;
+    font-size: medium;
+    text-align: center;
 }
