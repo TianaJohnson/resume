@@ -7,7 +7,7 @@ export default function Main () {
     return (
         <div className="header-div">
             <div className="header-title">
-            Tiana Johnson
+            <h1>Tiana Johnson</h1>
             </div>
         </div>
      )
