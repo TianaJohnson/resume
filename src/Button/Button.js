@@ -3,7 +3,9 @@ import './Button.css';
 
 export default function Button({lable}) {
     return(
-        <div data-test-id="button" className="button-style">{lable}</div>
+        <>
+        <button data-test-id="button" className="button-style">{lable}</button>
+        </>
     )
 
 }
