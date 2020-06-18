@@ -2,13 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import Button from './../Button';
 import { render } from '@testing-library/react';
-import {
-getByLabelText,
-getByText,
-getByTestId,
-queryByTestId,
-waitFor,
-} from '@testing-library/dom'
+import { getByTestId } from '@testing-library/dom';
 import '@testing-library/jest-dom/extend-expect'
 
 
