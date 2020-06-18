@@ -10,7 +10,7 @@ export default function Main () {
                 <h1>Tiana Johnson</h1>
             </div>
             <div className="header-links">
-             <a href="#"/>
+             
             </div>
         </div>
      )
