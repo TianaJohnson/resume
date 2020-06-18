@@ -7,7 +7,7 @@ import './Main.css';
 export default function Main () {
         return (
             <div className="main-div">
-                <Button lable="click me"></Button>
+                <Button label="click me"></Button>
             </div>
          )
     
