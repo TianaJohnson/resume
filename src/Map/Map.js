@@ -1,29 +1,26 @@
 import React from 'react';
-import { GoogleMap, withScriptjs, withGoogleMap} from 'google-maps-react';
-
-const WrapperMap = withScriptjs(withGoogleMap(Map));
-
-export default function Map() {
-    return (
-        <GoogleMap defaultZoom={10} defaultCenter={{ lat:12, lng:12 }}/>
-    )
-};
+import {    GoogleMap,
+            useLoadScript,
+            Marker, 
+            infoWindo} from 'google-maps-react/api';
+import { formatRelitive } from 'date-fns';
 
 
+// export default function Map() {
+//     return (
+//         <GoogleMap defaultZoom={10} defaultCenter={{ lat:12, lng:12 }}/>
+//     )
+// };
 
+// const WrappedMap = withScriptjs(withGoogleMap(Map));
 
-
-
-
-// import { Map, GoogleApiWrapper } from 'google-maps-react';
+// import { Map, GoogleApiWrapper, MapContainer } from 'google-maps-react';
 
 // const mapStyles = {
 //   width: '100%',
 //   height: '100%'
 // };
-
-// export class MapContainer extends Component {
-//   render() {
+// function MapGoo () {
 //     return (
 //       <Map
 //         google={this.props.google}
@@ -36,7 +33,7 @@ export default function Map() {
 //       />
 //     );
 //   }
-// }
+
 
 // export default GoogleApiWrapper({
 //   apiKey: 'AIzaSyCNdWSi15D0AoW3Hi4txUN0qAL7j_ZSdQ0'
