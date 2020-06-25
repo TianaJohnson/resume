@@ -1,9 +1,9 @@
-import React from 'react';
-import {    GoogleMap,
-            useLoadScript,
-            Marker, 
-            infoWindo} from 'google-maps-react/api';
-import { formatRelitive } from 'date-fns';
+// import React from 'react';
+// import {    GoogleMap,
+//             useLoadScript,
+//             Marker, 
+//             infoWindo} from 'google-maps-react/api';
+// import { formatRelitive } from 'date-fns';
 
 
 // export default function Map() {
